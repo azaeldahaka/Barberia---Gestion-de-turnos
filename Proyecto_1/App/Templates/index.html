@@ -3,36 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 1</title>
+    <title>Barberia Facu</title>
 </head>
 <body>
     <container>
+        <!--inicio del header-->
         <header>
             <h1>BARBERIA FACU</h1>
-            
+            <!---Seccion para el contenedor de navegacion-->
             <div class="contenedor-nav">
                 <nav class="nav">
-                    <li>Inicio</li>
-                    <li>Turnos</li>
-                    <li>Servicio</li>
-                    <li>Contacto</li>
-                    <li>Sobre</li>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#turnos">Turnos</a></li>
+                    <li><a href="#servicios">Servicio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
                 </nav>
             </div>
             
         </header>
 
-        <div class="contenedor-inicio">
+        <!--Contenedor del Inicio-->
+        <div class="contenedor-inicio" id="inicio">
             
+            <div class="carrete">
+                <img src="../Static/Imagenes/corte1.jpeg" alt="Corte 1">
+                <img src="../Static/Imagenes/corte2.jpeg" alt="Corte 2">
+                <img src="../Static/Imagenes/corte3.jpeg" alt="Corte 3">
+                <img src="../Static/Imagenes/corte4.jpeg" alt="Corte 4">
+                <img src="../Static/Imagenes/corte5.jpeg" alt="Corte 5">
+                <img src="../Static/Imagenes/corte6.jpeg" alt="Corte 6">
+            </div>
+
         </div>
 
-        <div class="contenedor-turnos">
+        <!--Contenedor de Turnos-->
+        <div class="contenedor-turnos" id="turnos">
+
+            <div class="contenedor-calendario-turnos">
+                <p>
+                    Aqui se inserta el calendario con la funcion de poder agendar un turno.
+                </p>
+            </div>
 
         </div>
 
+        <!--Contenedor de Servicios-->
+        <div class="contenedor-servicios" id="servicios">
+            <div class="tarjeta 1"><p>Tarjeta 1</p></div>
+            <div class="tarjeta 2"><p>Tarjeta 2</p></div>
+            <div class="tarjeta 3"><p>Tarjeta 3</p></div>
+            <div class="tarjeta 4"><p>Tarjeta 4</p></div>
+            <div class="tarjeta 5"><p>Tarjeta 5</p></div>
+        </div>
 
+        <!--Contenedor de Sobre-->
+        <div class="contenedor-sobre" id="sobre">
+            <div class="caja-sobre">
+                <p>Sobre yo</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, nobis? Suscipit, incidunt porro maxime facere iste et rem consequatur.
+                    Et voluptates nemo quia quis officiis nisi impedit doloremque cumque quod!
+                </p>
+                <p>
+                    Emprendimiento sobre barberia y corte de cabello en hombres.
+                </p>
+            </div>
+        </div>
 
+        <!--Contenedor de Contacto-->
+        <div class="contenedor-contacto" id="contacto">
+            <div class="caja-contacto">
+                <p>Nombre</p>
+                <p>Número de Telefono</p>
+            </div>
+        </div>
 
+        <footer>
+            <div class="redes-sociales">
+                <a href="https://facebook.com/barberiafacu" target="_blank" rel="noopener noreferrer">
+                    <img src="static/Iconos/facebook-icon.png" alt="Facebook">
+                </a>
+                <a href="https://instagram.com/barberiafacu" target="_blank" rel="noopener noreferrer">
+                    <img src="static/Iconos/instagram-icon.png" alt="Instagram">
+                </a>
+                <!-- Puedes agregar más íconos y enlaces a otras redes sociales -->
+            </div>
+            
+            <div class="informacion-contacto">
+                <p>Dirección: Calle Principal #123, Ciudad</p>
+                <p>Teléfono: +123 456 789</p>
+                <p>Email: info@barberiafacu.com</p>
+            </div>
+
+        </footer>
 
     </container>
 </body>
