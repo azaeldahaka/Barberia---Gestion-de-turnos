@@ -1,0 +1,69 @@
+/*
+Paletas de colores.
+Fondo: #040D12
+Segundo color: #183D3D
+Tercer color: #5C8374
+Cuarto color: #93B1A6
+
+*/
+* {
+    padding: 0px;
+    
+}
+
+body{
+    background-color: #040D12;
+}
+
+.contenedor-inicio, .contenedor-servicios, .contenedor-contacto{
+    background-color: #FFFFFF;
+    
+}
+
+.card > p, .contenedor-contacto > .caja-contacto > p{
+    color: black;
+}
+
+
+.contenedor-calendario-turnos, p{
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------SECCION-RESPONSIVA-------------------*/
+
+/* Estilos para teléfonos móviles (mayor o igual a 576px) */
+@media only screen and (min-width: 576px) {
+    /* Agrega tus estilos para teléfonos móviles aquí */
+}
+
+/* Estilos para tabletas (mayor o igual a 768px) */
+@media only screen and (min-width: 768px) {
+    /* Agrega tus estilos para tabletas aquí */
+}
+
+/* Estilos para portátiles (mayor o igual a 992px) */
+@media only screen and (min-width: 992px) {
+    /* Agrega tus estilos para portátiles aquí */
+}
+
+/* Estilos para grandes dispositivos (mayor o igual a 1200px) */
+@media only screen and (min-width: 1200px) {
+    /* Agrega tus estilos para grandes dispositivos aquí */
+}
+
+/*--------------------FIN-DE-SECCION-RESPONSIVA-------------------*/
