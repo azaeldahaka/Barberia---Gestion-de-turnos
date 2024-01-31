@@ -7,29 +7,30 @@
     <link rel="stylesheet" href="/Proyecto_1/App/Static/Css/style.css">
 </head>
 <body>
-    <container class="contenedor-padre">
-        <!--inicio del header-->
-        <header>
+    <!--inicio del header-->
+    <header class="header contenedor">
+        <div class="menu">
             <h1>BARBERIA FACU</h1>
-            <!---Seccion para el contenedor de navegacion-->
-            <div class="contenedor-nav">
-                <nav class="nav">
-                    <ul>
-                       <li><a href="#inicio">Inicio</a></li>
-                        <li><a href="#turnos">Turnos</a></li>
-                        <li><a href="#servicios">Servicio</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                        <li><a href="#sobre">Sobre</a></li> 
-                    </ul>
-                    
-                </nav>
-            </div>
-            
-        </header>
+            <label for="menu">
+                <img src="/Proyecto_1/App/Static/Imagenes/menu.svg" class="menu-icono" alt="icono menu">
+            </label>     
+            <!--Navegacion-->
+            <nav class="nav">
+                <ul>
+                   <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#turnos">Turnos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#sobre">Sobre</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Fin del header-->
 
-        <!--Contenedor del Inicio-->
+    <section class="contenedor contenedor-carrete contenedor-main">
+         <!--Contenedor del Inicio-->
         <div class="contenedor-inicio" id="inicio">
-            
             <div class="carrete">
                 <img src="../Static/Imagenes/corte1.jpeg" alt="Corte 1">
                 <img src="../Static/Imagenes/corte2.jpeg" alt="Corte 2">
@@ -38,22 +39,23 @@
                 <img src="../Static/Imagenes/corte5.jpeg" alt="Corte 5">
                 <img src="../Static/Imagenes/corte6.jpeg" alt="Corte 6">
             </div>
-
         </div>
-
-        <!--Contenedor de Turnos-->
-        <div class="contenedor-turnos" id="turnos">
-
-            <div class="contenedor-calendario-turnos">
-                <p>
-                    Aqui se inserta el calendario con la funcion de poder agendar un turno.
-                </p>
-            </div>
-
+    </section>
+   
+    <!--Contenedor de Turnos-->
+    <main class="contenedor-turnos contenedor" id="turnos">
+        <div class="contenedor-calendario-turnos">
+            <h2>Turnos</h2>
+            <p>
+                Aqui se inserta el calendario con la funcion de poder agendar un turno.
+            </p>
         </div>
+    </main>
 
+    <section class="contenedor contenedor-main">
         <!--Contenedor de Servicios-->
         <div class="contenedor-servicios" id="servicios">
+            <h2>Servicios</h2>
             <div class="tarjeta-1 card"><p>Tarjeta 1</p></div>
             <div class="tarjeta-2 card"><p>Tarjeta 2</p></div>
             <div class="tarjeta-3 card"><p>Tarjeta 3</p></div>
@@ -61,10 +63,10 @@
             <div class="tarjeta-5 card"><p>Tarjeta 5</p></div>
         </div>
 
-        <!--Contenedor de Sobre-->
+        <!--Contenedor de Sobre nosotros-->
         <div class="contenedor-sobre" id="sobre">
             <div class="caja-sobre">
-                <p>Sobre yo</p>
+                <h2>Sobre yo</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, nobis? Suscipit, incidunt porro maxime facere iste et rem consequatur.
                     Et voluptates nemo quia quis officiis nisi impedit doloremque cumque quod!
                 </p>
@@ -76,31 +78,25 @@
 
         <!--Contenedor de Contacto-->
         <div class="contenedor-contacto" id="contacto">
-            <div class="caja-contacto">
-                <p>Nombre</p>
-                <p>Número de Telefono</p>
-            </div>
+            <h2>Contacto</h2>
+            <p>Nombre</p>
+            <p>Número de Telefono</p>
         </div>
-
-        <footer>
-            <div class="redes-sociales">
-                <a href="https://facebook.com/barberiafacu" target="_blank" rel="noopener noreferrer">
-                    <img src="static/Iconos/facebook-icon.png" alt="Facebook">
-                </a>
-                <a href="https://instagram.com/barberiafacu" target="_blank" rel="noopener noreferrer">
-                    <img src="static/Iconos/instagram-icon.png" alt="Instagram">
-                </a>
-                <!-- Puedes agregar más íconos y enlaces a otras redes sociales -->
-            </div>
-            
-            <div class="informacion-contacto">
-                <p>Dirección: Calle Principal #123, Ciudad</p>
-                <p>Teléfono: +123 456 789</p>
-                <p>Email: info@barberiafacu.com</p>
-            </div>
-
-        </footer>
-
-    </container>
+    </section>
+    
+    <footer class="footer contenedor">
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/facudelgado64/" target="_blank" rel="noopener noreferrer">
+                <img src="/Proyecto_1/App/Static/Imagenes/instagram.svg" alt="Instagram">
+            </a>
+            <!-- Puedes agregar más íconos y enlaces a otras redes sociales -->
+        </div>
+        
+        <div class="informacion-contacto">
+            <p>Dirección: Calle Principal #123, Ciudad</p>
+            <p>Teléfono: +123 456 789</p>
+            <p>Email: info@barberiafacu.com</p>
+        </div>
+    </footer>
 </body>
 </html>

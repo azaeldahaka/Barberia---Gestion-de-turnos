@@ -6,29 +6,99 @@ Tercer color: #5C8374
 Cuarto color: #93B1A6
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/*--------Reseteamos los parametros-----------*/
 * {
-    padding: 0px;
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
 }
 
+/*--------Fondo de las secciones--------*/
 body{
     background-color: #040D12;
+    font-family: 'Poppins', sans-serif;
 }
 
-.contenedor-inicio, .contenedor-servicios, .contenedor-contacto{
+.contenedor{
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.header{
+    min-height: 7vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .nav ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .nav ul li a{
+    font-size: 12px;
+    padding: 15px;
+    display: block;
+    color: #040D12;
+    font-weight: 600;   
+}
+
+.menu .nav ul li a:hover{
+    color: dimgray; 
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header, .contenedor-turnos, .contenedor-sobre, footer{
     background-color: #FFFFFF;
     
 }
 
-.card > p, .contenedor-contacto > .caja-contacto > p{
+.card,.contenedor-contacto, .contenedor-calendario-turnos > p{
     color: black;
 }
 
-
-.contenedor-calendario-turnos, p{
+.card, .contenedor-contacto > p{
     color: #FFFFFF;
 }
-
+/*--------Fin del fondo de las secciones--------*/
 
 
 
